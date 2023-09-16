@@ -1,0 +1,9 @@
+#Asp.Net Core
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+#Visual Studio Code
+.vscode/
