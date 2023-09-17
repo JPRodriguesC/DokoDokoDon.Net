@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doko.Rest", "Doko.Rest\Doko.Rest.csproj", "{14D185DA-DE1C-4D9E-88EA-F147F4431571}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doko.Don", "Doko.Don\Doko.Don.csproj", "{FBFE66C1-97C2-4837-B2A2-ADA37FCE5364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doko.Mongo", "Doko.Mongo\Doko.Mongo.csproj", "{2862516D-7330-4E6E-97A6-B3A39FABFFDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{14D185DA-DE1C-4D9E-88EA-F147F4431571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14D185DA-DE1C-4D9E-88EA-F147F4431571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14D185DA-DE1C-4D9E-88EA-F147F4431571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFE66C1-97C2-4837-B2A2-ADA37FCE5364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFE66C1-97C2-4837-B2A2-ADA37FCE5364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFE66C1-97C2-4837-B2A2-ADA37FCE5364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFE66C1-97C2-4837-B2A2-ADA37FCE5364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2862516D-7330-4E6E-97A6-B3A39FABFFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2862516D-7330-4E6E-97A6-B3A39FABFFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2862516D-7330-4E6E-97A6-B3A39FABFFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2862516D-7330-4E6E-97A6-B3A39FABFFDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
