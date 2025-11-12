@@ -1,11 +1,23 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Doko.Get.Extensions;
+using Doko.Infra;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+            .ConfigureContainer<ContainerBuilder>(builder =>
+            {
+                builder.RegisterModule<StartupModule>();
+            });
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddApiClients();
 
 var app = builder.Build();
 

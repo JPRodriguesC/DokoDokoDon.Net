@@ -7,8 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0-rc.1.23419.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <None Update="nuget.config" Pack="true" PackagePath="." />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Doko.Don\Doko.Don.csproj" />
+    <ProjectReference Include="..\Doko.Get\Doko.Get.csproj" />
+    <ProjectReference Include="..\Doko.Infra\Doko.Infra.csproj" />
+    <ProjectReference Include="..\Doko.Mongo\Doko.Mongo.csproj" />
   </ItemGroup>
 
 </Project>

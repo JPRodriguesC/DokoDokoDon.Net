@@ -7,9 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.1.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
   </ItemGroup>
+
   <ItemGroup>
-     <None Update="nuget.config" Pack="true" PackagePath="." />
+    <ProjectReference Include="..\Doko.Don\Doko.Don.csproj" />
   </ItemGroup>
+
 </Project>

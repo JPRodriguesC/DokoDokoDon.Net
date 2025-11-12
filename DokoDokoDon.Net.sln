@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doko.Don", "Doko.Don\Doko.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doko.Mongo", "Doko.Mongo\Doko.Mongo.csproj", "{2862516D-7330-4E6E-97A6-B3A39FABFFDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doko.Get", "Doko.Get\Doko.Get.csproj", "{D058166C-E5B5-47EA-8FA4-147225819970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doko.Infra", "Doko.Infra\Doko.Infra.csproj", "{8D72D090-3422-4522-AD57-1168A40215D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{2862516D-7330-4E6E-97A6-B3A39FABFFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2862516D-7330-4E6E-97A6-B3A39FABFFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2862516D-7330-4E6E-97A6-B3A39FABFFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D058166C-E5B5-47EA-8FA4-147225819970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D058166C-E5B5-47EA-8FA4-147225819970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D058166C-E5B5-47EA-8FA4-147225819970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D058166C-E5B5-47EA-8FA4-147225819970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D72D090-3422-4522-AD57-1168A40215D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D72D090-3422-4522-AD57-1168A40215D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D72D090-3422-4522-AD57-1168A40215D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D72D090-3422-4522-AD57-1168A40215D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
